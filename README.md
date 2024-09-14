@@ -1,20 +1,28 @@
-Investigación aplicada #2
-Para que el código funcione correctamente, deben crear un archivo .env en la carpeta "raíz" con las siguientes líneas:
-PORT=4000 "O el que gusten"
-DB_HOST=localhost
-DB_USER="Su usuario"
-DB_PASSWORD="Su contraseña"
-DB_NAME=autenticacion
-JWT_SECRET="Una llave segura que creen"
-Respecto al nombre de la base de datos es porque así la llame yo, les dejo aquí el código sql para crear la base de datos:
-CREATE DATABASE autenticacion;
-USE autenticacion;
+# Proyecto de Pruebas de Calculadora con Jest
 
-CREATE TABLE usuarios (
-  id INT AUTO_INCREMENT PRIMARY KEY,
-  nombre VARCHAR(255) NOT NULL,
-  contra VARCHAR(255) NOT NULL,
-  correo VARCHAR(255) NOT NULL,
-  token TEXT
-);
-Cabe recalcar que se hizo uso de MySQL como base de datos.
+Este es un proyecto simple para demostrar el uso de **Jest** para realizar pruebas unitarias en funciones de JavaScript. El proyecto incluye una calculadora básica con funciones para sumar, restar, multiplicar, dividir, y un ejemplo de una función de multiplicación asíncrona.
+
+## Características
+
+- Operaciones aritméticas básicas: suma, resta, multiplicación y división.
+- Manejo de errores para la división por cero.
+- Ejemplo de prueba de función asíncrona utilizando Jest.
+  
+## Comenzando
+
+### Requisitos Previos
+
+Antes de comenzar, asegúrate de tener lo siguiente instalado en tu máquina:
+
+- **Node.js**: [Descargar Node.js](https://nodejs.org/)
+- **npm** (Node Package Manager), que viene incluido con Node.js, y será necesario para instalar las dependencias.
+
+### Instalación
+
+Sigue estos pasos para configurar y ejecutar el proyecto en tu máquina local:
+
+1. **Clonar el repositorio**:
+
+   ```bash
+   git clone https://github.com/tu-usuario/jest-calculator-test.git
+   cd jest-calculator-test
