@@ -1,20 +1,14 @@
-Investigación aplicada #2
-Para que el código funcione correctamente, deben crear un archivo .env en la carpeta "raíz" con las siguientes líneas:
-PORT=4000 "O el que gusten"
-DB_HOST=localhost
-DB_USER="Su usuario"
-DB_PASSWORD="Su contraseña"
-DB_NAME=autenticacion
-JWT_SECRET="Una llave segura que creen"
-Respecto al nombre de la base de datos es porque así la llame yo, les dejo aquí el código sql para crear la base de datos:
-CREATE DATABASE autenticacion;
-USE autenticacion;
+# Ejemplo de Pruebas con Mocha
 
-CREATE TABLE usuarios (
-  id INT AUTO_INCREMENT PRIMARY KEY,
-  nombre VARCHAR(255) NOT NULL,
-  contra VARCHAR(255) NOT NULL,
-  correo VARCHAR(255) NOT NULL,
-  token TEXT
-);
-Cabe recalcar que se hizo uso de MySQL como base de datos.
+Este proyecto demuestra un ejemplo básico de cómo configurar y ejecutar pruebas unitarias utilizando Mocha. 
+
+## Instrucciones
+
+1. Clona el repositorio.
+2. Instala las dependencias utilizando `npm install`.
+3. Ejecuta las pruebas con `npx mocha`.
+
+## Archivos importantes
+
+- `sum.js`: Contiene la función de suma que estamos probando.
+- `test/test.js`: Contiene las pruebas unitarias para la función de suma.
