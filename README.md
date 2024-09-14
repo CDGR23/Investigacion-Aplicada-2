@@ -17,12 +17,3 @@ Antes de comenzar, asegúrate de tener lo siguiente instalado en tu máquina:
 - **Node.js**: [Descargar Node.js](https://nodejs.org/)
 - **npm** (Node Package Manager), que viene incluido con Node.js, y será necesario para instalar las dependencias.
 
-### Instalación
-
-Sigue estos pasos para configurar y ejecutar el proyecto en tu máquina local:
-
-1. **Clonar el repositorio**:
-
-   ```bash
-   git clone https://github.com/tu-usuario/jest-calculator-test.git
-   cd jest-calculator-test
