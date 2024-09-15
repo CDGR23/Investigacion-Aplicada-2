@@ -1,4 +1,4 @@
-# Proyecto de Pruebas con Karma y Jasmine
+# Proyecto de Pruebas con Karma
 
 Este proyecto contiene una aplicación simple en Node.js con funciones matemáticas básicas, y un conjunto de pruebas unitarias usando **Karma** y **Jasmine**. Las pruebas incluyen funciones de suma, resta, multiplicación y división.
 
